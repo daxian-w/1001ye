@@ -1,0 +1,98 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "首页",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/diary/list",
+      "style": {
+        "navigationBarTitleText": "社区日记",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/publish/index",
+      "style": {
+        "navigationBarTitleText": "发布植物",
+        "navigationBarBackgroundColor": "#FCFBF9"
+      }
+    },
+    {
+      "path": "pages/mine/index",
+      "style": {
+        "navigationBarTitleText": "个人中心"
+      }
+    },
+    {
+      "path": "pages/plant/detail",
+      "style": {
+        "navigationBarTitleText": "植物详情",
+        "navigationBarBackgroundColor": "#FCFBF9"
+      }
+    },
+    {
+      "path": "pages/auth/login",
+      "style": {
+        "navigationBarTitleText": "登录",
+        "navigationBarBackgroundColor": "#FCFBF9",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/auth/callback",
+      "style": {
+        "navigationBarTitleText": "登录中",
+        "navigationBarBackgroundColor": "#FCFBF9",
+        "navigationStyle": "custom"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "1001叶",
+    "navigationBarBackgroundColor": "#FCFBF9",
+    "backgroundColor": "#FCFBF9"
+  },
+  "tabBar": {
+    "color": "#94745E",
+    "selectedColor": "#27AE60",
+    "borderStyle": "black",
+    "backgroundColor": "#FCFBF9",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tabbar/home.svg",
+        "selectedIconPath": "static/tabbar/home-active.svg"
+      },
+      {
+        "pagePath": "pages/diary/list",
+        "text": "社区",
+        "iconPath": "static/tabbar/diary.svg",
+        "selectedIconPath": "static/tabbar/diary-active.svg"
+      },
+      {
+        "pagePath": "pages/publish/index",
+        "text": "发布",
+        "iconPath": "static/tabbar/publish.svg",
+        "selectedIconPath": "static/tabbar/publish-active.svg"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "text": "我的",
+        "iconPath": "static/tabbar/mine.svg",
+        "selectedIconPath": "static/tabbar/mine-active.svg"
+      }
+    ]
+  },
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+    }
+  }
+}

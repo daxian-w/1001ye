@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;800&family=Zilla+Slab:wght@600;700&display=swap");
+
+:root {
+  --brand-green: #27ae60;
+  --brand-black: #1a1a1a;
+  --brand-yellow: #e6f99d;
+  --leaf-300: #99cc93;
+  --leaf-700: #2b5d27;
+  --earth-50: #f8f6f4;
+  --earth-100: #eee9e3;
+  --earth-200: #ddd2c6;
+  --earth-400: #a98d76;
+  --earth-600: #866554;
+  --earth-800: #5c453d;
+  --earth-900: #4c3a34;
+  --bg-canvas: #fcfbf9;
+  --surface-base: #ffffff;
+  --surface-soft: rgba(255, 255, 255, 0.74);
+  --text-primary: #4c3a34;
+  --text-strong: #2d221d;
+  --text-label: #705347;
+  --text-muted: #8a7768;
+  --border-soft: rgba(92, 69, 61, 0.12);
+  --radius-xl: 28rpx;
+  --radius-2xl: 40rpx;
+  --radius-3xl: 56rpx;
+  --radius-pill: 999rpx;
+  --shadow-soft: 0 18rpx 42rpx rgba(26, 26, 26, 0.05);
+  --shadow-strong: 0 18rpx 44rpx rgba(39, 174, 96, 0.18);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  background: var(--bg-canvas);
+  color: var(--text-primary);
+}
