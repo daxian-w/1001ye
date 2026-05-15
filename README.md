@@ -1,5 +1,7 @@
 # 1001 Leaf
 
+[English](./README.md) | [简体中文](./README.zh-CN.md)
+
 1001 Leaf is a small open-source plant exchange community that is still growing.
 
 It began with a simple wish: when a plant outgrows a windowsill, when a cutting takes root, or when someone wants to share a care story, there should be a warmer place for that connection to happen. This project hopes to make plant sharing feel less like a transaction and more like a gentle handoff between people who care about green things.
