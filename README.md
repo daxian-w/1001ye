@@ -1,8 +1,12 @@
 # 1001 Leaf
 
-1001 Leaf is a plant exchange community front-end built with `uni-app`, Vue 3, Pinia, Vite, and Sass.
+1001 Leaf is a small open-source plant exchange community that is still growing.
 
-The project focuses on a lightweight community experience for browsing shared plants, publishing exchange posts, keeping plant diaries, and managing a user session across H5-first multi-platform clients.
+It began with a simple wish: when a plant outgrows a windowsill, when a cutting takes root, or when someone wants to share a care story, there should be a warmer place for that connection to happen. This project hopes to make plant sharing feel less like a transaction and more like a gentle handoff between people who care about green things.
+
+The current version is an H5-first front-end built with `uni-app`, Vue 3, Pinia, Vite, and Sass. It supports browsing shared plants, publishing exchange posts, keeping plant diaries, and managing user sessions across a multi-platform client foundation.
+
+This repository is also an invitation. If you love plants, front-end development, product design, documentation, testing, or community tools, you are very welcome to join in. Even a small issue, a UI suggestion, a bug fix, or a real plant lover's perspective can help 1001 Leaf grow into something kinder and more useful.
 
 ## Status
 
